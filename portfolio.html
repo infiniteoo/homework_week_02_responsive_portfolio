@@ -1,11 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Troy Dorman</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/navbars/">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
+
+    <!-- default navbar with named sections for screens 990px and up -->
+
+    <div class="container">
+        <nav class="navbar navbar-expand navbar-dark bg-dark" id="navBar">
+
+
+            <div class="collapse navbar-collapse" id="navbarsExample02">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+
+                <div id="nameOnNav">
+                    <h4>Troy Dorman</h4>
+                </div>
+
+            </div>
+        </nav>
+
+        <!-- this is the nav bar for 768px and under. no nav tag
+        names, just the dropdown button -->
+
+        <nav class="navbar navbar-dark bg-dark" id="smallNavBar">
+
+            <h3 class='troyName'>Troy Dorman</h3>
+            <div class="dropdown">
+                <button class="dropbtn">
+                    <span class="navbar-toggler-icon"></span>
+                    <div class="dropdown-content">
+                        <a href="index.html">Home</a>
+                        <a href="portfolio.html">Portfolio</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </button>
+            </div>
+        </nav>
+
+        <div class='row'>
+            <div class='col-lg-12'>
+                <div class="jumbotron">
+                    <div class="container">
+                        <div class="container" id="insertContainer">
+                            <div class='row'>
+                                <div class='col-sm-12'>
+                                    <p id='aboutMe'>Portfolio</p>
+                                </div>
+
+
+                            </div>
+
+                            <!-- this creates the horizontal rule -->
+                            <div clas='row'>
+                                <div class='col-sm-12'>
+                                    <hr>
+                                </div>
+                            </div>
+
+
+                            <div class="album py- bg-light">
+
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="card mb-4 shadow-sm">
+                                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                                xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
+                                                focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                                                <title>Placeholder</title>
+                                                <rect width="100%" height="100%" fill="#55595c" /><text x="37%" y="50%"
+                                                    fill="#eceeef" dy=".3em">Thumbnail</text>
+                                            </svg>
+                                            <div class="card-body">
+                                                <p class="card-text">Thundercats cronut affogato microdosing. Yr hashtag schlitz kogi portland stumptown.  Synth gluten-free YOLO +1.</p>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <div class="btn-group">
+
+                                                    </div>
+                                                    <small class="text-muted">10/20/2020</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="card mb-4 shadow-sm">
+                                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                                xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
+                                                focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                                                <title>Placeholder</title>
+                                                <rect width="100%" height="100%" fill="#55595c" /><text x="37%" y="50%"
+                                                    fill="#eceeef" dy=".3em">Thumbnail</text>
+                                            </svg>
+                                            <div class="card-body">
+                                                <p class="card-text"> Iceland truffaut keffiyeh post-ironic farm-to-table chia. Activated charcoal af umami jianbing tbh shaman cliche waistcoat  bushwick.</p>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <div class="btn-group">
+
+                                                    </div>
+                                                    <small class="text-muted">09/30/2020</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="card mb-4 shadow-sm">
+                                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                                xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
+                                                focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                                                <title>Placeholder</title>
+                                                <rect width="100%" height="100%" fill="#55595c" /><text x="37%" y="50%"
+                                                    fill="#eceeef" dy=".3em">Thumbnail</text>
+                                            </svg>
+                                            <div class="card-body">
+                                                <p class="card-text">Banh mi fixie iceland microdosing master cleanse meditation sriracha.</p>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <div class="btn-group">
+
+                                                    </div>
+                                                    <small class="text-muted">07/04/2020</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="card mb-4 shadow-sm">
+                                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                                xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
+                                                focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                                                <title>Placeholder</title>
+                                                <rect width="100%" height="100%" fill="#55595c" /><text x="37%" y="50%"
+                                                    fill="#eceeef" dy=".3em">Thumbnail</text>
+                                            </svg>
+                                            <div class="card-body">
+                                                <p class="card-text">Echo park cronut four loko cardigan, celiac tofu ennui ethical neutra. </p>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <div class="btn-group">
+
+                                                    </div>
+                                                    <small class="text-muted">12/23/2019</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="card mb-4 shadow-sm">
+                                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                                xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
+                                                focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                                                <title>Placeholder</title>
+                                                <rect width="100%" height="100%" fill="#55595c" /><text x="37%" y="50%"
+                                                    fill="#eceeef" dy=".3em">Thumbnail</text>
+                                            </svg>
+                                            <div class="card-body">
+                                                <p class="card-text">Sriracha cornhole banh mi, single-origin coffee art party chambray drinking vinegar street art cred truffaut blue bottle trust fund tote bag.</p>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <div class="btn-group">
+
+                                                    </div>
+                                                    <small class="text-muted">09/26/2019</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- just adding a little space -->
+
+                        <br> <br> <br>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+
+        <!-- bottom nav bar strictly for decoration -->
+        <nav class="navbar navbar-expand navbar-dark bg-dark" id="bottomBar">
+            <div class="collapse navbar-collapse" id="navbarsExample02">
+                <div id="nameOnNav" class='troyName'>
+                    <h4></h4>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+
 </body>
+
+
 </html>

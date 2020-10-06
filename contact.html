@@ -1,11 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Troy Dorman</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/navbars/">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
+
+    <!-- default navbar with named sections for screens 990px and up -->
+
+    <div class="container">
+        <nav class="navbar navbar-expand navbar-dark bg-dark" id="navBar">
+
+
+            <div class="collapse navbar-collapse" id="navbarsExample02">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li  class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li  class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+
+                <div id="nameOnNav">
+                    <h4>Troy Dorman</h4>
+                </div>
+
+            </div>
+        </nav>
+
+        <!-- this is the nav bar for 768px and under. no nav tag
+        names, just the dropdown button -->
+
+        <nav class="navbar navbar-dark bg-dark" id="smallNavBar">
+
+            <h3 class='troyName'>Troy Dorman</h3>
+            <div class="dropdown">
+                <button class="dropbtn">
+                    <span class="navbar-toggler-icon"></span>
+                    <div class="dropdown-content">
+                        <a href="index.html">Home</a>
+                        <a href="portfolio.html">Portfolio</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </button>
+            </div>
+        </nav>
+
+        <div class='row'>
+            <div class='col-lg-12'>
+                <div class="jumbotron">
+                    <div class="container">
+                        <div class="container" id="insertContainer">
+                            <div class='row'>
+                                <div class='col-sm-12'>
+                                    <p id='aboutMe'>Contact</p>
+                                </div>
+
+
+                            </div>
+
+                            <!-- this creates the horizontal rule -->
+                            <div clas='row'>
+                                <div class='col-sm-12'>
+                                    <hr>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-12">
+                                <div class='float-left' id='imgContainer'>
+                                    <img src='./img/placeholder-250x250.png' id='pic'>
+                                </div>
+                                <div class='pull-right' id='aboutMeText'>
+                                    <p>
+                                        Vexillologist vinyl yuccie four loko banh mi succulents vice
+                                        tumblr
+                                        literally hammock. Heirloom disrupt listicle fam, tattooed typewriter 90's
+                                        letterpress mumblecore godard banjo vexillologist bespoke squid.
+                                        Fingerstache
+                                        swag activated charcoal small batch raclette disrupt pitchfork
+                                        intelligentsia
+                                        jianbing VHS wolf direct trade vegan. Blog direct trade butcher 8-bit
+                                        fashion
+                                        axe, lo-fi ramps small batch green juice vice slow-carb raw denim. Hell of
+                                        gastropub glossier shaman. Whatever small batch kickstarter, kitsch
+                                        beard chartreuse raclette wayfarers keytar knausgaard.
+                                    </p>
+                                    <br>
+                                    <p>
+
+                                        Tumblr four loko
+                                        portland
+                                        cronut scenester chambray ugh glossier edison bulb shoreditch asymmetrical
+                                        kombucha kickstarter semiotics selfies. Snackwave taiyaki pok pok palo
+                                        santo,
+                                        health goth williamsburg authentic small batch schlitz yr offal salvia cloud
+                                        bread DIY deep v. Pop-up vape locavore cray health goth.
+
+                                    </p>
+
+                                    <br> <br>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- just adding a little space -->
+
+                        <br> <br> <br>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+
+        <!-- bottom nav bar strictly for decoration -->
+        <nav class="navbar navbar-expand navbar-dark bg-dark" id="bottomBar">
+            <div class="collapse navbar-collapse" id="navbarsExample02">
+                <div id="nameOnNav" class='troyName'>
+                    <h4></h4>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+
 </body>
+
+
 </html>

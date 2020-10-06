@@ -109,6 +109,10 @@ p {
     background-color: lightblue;
 }
 
+.round{
+    border-radius: 20px;
+}
+
 /* customized css for medium screens up to 768px  */
 
 @media screen and (max-width: 768px) {
