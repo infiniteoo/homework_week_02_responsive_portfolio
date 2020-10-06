@@ -1,73 +1,147 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Jekyll v4.1.1">
-    <title>Bottom navbar example · Bootstrap</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Troy Dorman</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/navbars/">
+    <link rel="stylesheet" href="css/style.css">
+    
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/navbar-bottom/">
 
-    <!-- Bootstrap core CSS -->
-    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
-
-    <style>
-        .bd-placeholder-img {
-            font-size: 1.125rem;
-            text-anchor: middle;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-        }
-
-        @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-                font-size: 3.5rem;
-            }
-        }
-    </style>
 </head>
 
 <body>
 
-    </div>
-    <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Bottom navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
-                <li class="nav-item dropup">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">Dropup</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdown10">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
+    <!-- default navbar with named sections for screens 990px and up -->
+
+    <div class="container">
+        <nav class="navbar navbar-expand navbar-dark bg-dark" id="navBar">
+
+
+            <div class="collapse navbar-collapse" id="navbarsExample02">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+
+                <div id="nameOnNav">
+                    <h4>Troy Dorman</h4>
+                </div>
+
+            </div>
+        </nav>
+
+        <!-- this is the nav bar for 768px and under. no nav tag
+        names, just the collapsable button -->
+
+        <nav class="navbar navbar-dark bg-dark" id="smallNavBar">
+
+            <h3 class='troyName'>Troy Dorman</h3>
+            <div class="dropdown">
+                <button class="dropbtn">
+                    <span class="navbar-toggler-icon"></span>
+                    <div class="dropdown-content">
+                        <a href="index.html">Home</a>
+                        <a href="portfolio.html">Portfolio</a>
+                        <a href="contact.html">Contact</a>
                     </div>
-                </li>
-            </ul>
+                </button>
+            </div>
+        </nav>
+
+        <div class='row'>
+            <div class='col-lg-12'>
+                <div class="jumbotron">
+                    <div class="container">
+                        <div class="container" id="insertContainer">
+                            <div class='row'>
+                                <div class='col-sm-12'>
+                                    <p id='aboutMe'>About Me</p>
+                                </div>
+
+
+                            </div>
+
+                            <!-- this creates the horizontal rule -->
+                            <div clas='row'>
+                                <div class='col-sm-12'>
+                                    <hr>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-12">
+                                <div class='float-left' id='imgContainer'>
+                                    <img src='./img/placeholder-250x250.png' id='pic'>
+                                </div>
+                                <div class='pull-right' id='aboutMeText'>
+                                    <p>
+                                        Vexillologist vinyl yuccie four loko banh mi succulents vice
+                                        tumblr
+                                        literally hammock. Heirloom disrupt listicle fam, tattooed typewriter 90's
+                                        letterpress mumblecore godard banjo vexillologist bespoke squid.
+                                        Fingerstache
+                                        swag activated charcoal small batch raclette disrupt pitchfork
+                                        intelligentsia
+                                        jianbing VHS wolf direct trade vegan. Blog direct trade butcher 8-bit
+                                        fashion
+                                        axe, lo-fi ramps small batch green juice vice slow-carb raw denim. Hell of
+                                        gastropub glossier shaman. Whatever small batch kickstarter, kitsch
+                                        beard chartreuse raclette wayfarers keytar knausgaard.
+                                    </p>
+                                    <br>
+                                    <p>
+
+                                        Tumblr four loko
+                                        portland
+                                        cronut scenester chambray ugh glossier edison bulb shoreditch asymmetrical
+                                        kombucha kickstarter semiotics selfies. Snackwave taiyaki pok pok palo
+                                        santo,
+                                        health goth williamsburg authentic small batch schlitz yr offal salvia cloud
+                                        bread DIY deep v. Pop-up vape locavore cray health goth.
+
+                                    </p>
+                                    <br><br>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- just adding a little space -->
+
+                        <br> <br> <br>
+
+                    </div>
+                </div>
+            </div>
         </div>
-    </nav>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
-    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+
+        <br>
+
+
+        <!-- bottom nav bar strictly for decoration -->
+        <nav class="navbar navbar-expand navbar-dark bg-dark" id="bottomBar">
+            <div class="collapse navbar-collapse" id="navbarsExample02">
+                <div id="nameOnNav" class='troyName'>
+                    <h4></h4>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+
+</body>
+
 
 </html>
