@@ -14,6 +14,17 @@
     font-weight: bold;
 }
 
+#albumRound {
+    border-radius: 25px;
+    margin-bottom: 5px;
+}
+
+.btn-primary {
+
+    background-color: lightblue;
+    border: none;
+
+}
 #nameOnNav, .troyName {
     color: white;
     float: right;
