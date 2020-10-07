@@ -20,11 +20,10 @@
 }
 
 .btn-primary {
-
     background-color: lightblue;
     border: none;
-
 }
+
 #nameOnNav, .troyName {
     color: white;
     float: right;
@@ -35,18 +34,17 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.jumbotron {
-    height: 100%;
-    
+.wrapper {
+    width: 90%;
 }
 
 #insertContainer {
-    background-color: white;
     height: 80%;
     width: 60%;
     float: left;
     border-radius: 25px;
     box-shadow: 5px 10px;
+    border: 5px solid lightblue;
 }
 
 p {
@@ -111,7 +109,6 @@ p {
 
 .dropdown:hover .dropdown-content {
     display: block;
-    
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
@@ -120,18 +117,24 @@ p {
     background-color: lightblue;
 }
 
-.round{
+.round {
     border-radius: 20px;
+}
+
+#iconContainer {
+    display: block;
+    padding-bottom: 20px;
+    text-align: center;
 }
 
 /* customized css for medium screens up to 768px  */
 
 @media screen and (max-width: 768px) {
-    .jumbotron {
-        width: 690px;
+    .wrapper {
+        width: 100%;
     }
     #insertContainer {
-        width: 600px;
+        width: 100%;
     }
     #navBar {
         display: none;
@@ -147,21 +150,14 @@ p {
 /* customized css for xs screens up to 400px  */
 
 @media screen and (max-width: 400px) {
-    .jumbotron {
-        width: 370px;
+    .wrapper {
+        width: 100%;
     }
     #insertContainer {
-        width: 320px;
-    }
-    #imgContainer {
-        margin: 7px;
-        padding-right: 10px;
+        width: 100%;
     }
     #aboutMe {
         font-size: 3em;
     }
-    #pic {
-        height: 150px;
-        width: 150px;
-    }
+    
 }
